@@ -53,7 +53,7 @@ namespace Exo.WebApi.Controllers
                 _projetoRepository.Deletar(id);
                 return StatusCode(204);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return BadRequest();
             }
